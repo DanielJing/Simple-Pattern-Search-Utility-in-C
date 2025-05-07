@@ -13,7 +13,8 @@ Handles errors such as missing arguments or failure to open a file.
 
 Usage
 
-    bash./pattern_search pattern [filename]
+    bash 
+    ./pattern_search pattern [filename]
 
 pattern - The string pattern to search for in the input lines.
 
@@ -23,11 +24,13 @@ Example
 
 Search for the word "error" in a file named log.txt:
 
-    bash ./pattern_search error log.txt
+    bash 
+    ./pattern_search error log.txt
 
 Search for the pattern "hello" from standard input (e.g., piped input):
 
-    bash cat file.txt | ./pattern_search hello
+    bash 
+    cat file.txt | ./pattern_search hello
 
 How it Works
 
